@@ -1,0 +1,144 @@
+body {
+    background-image: url(../img/fundo-cozinha.jpg);
+    background-position: center;
+    background-size: cover;
+}
+
+nav {
+    display: flex;
+    background-image: url(../img/fundo-cozinha.jpg);
+    background-position-x: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    justify-content: space-between;
+    position: fixed;
+    width: 100%;
+}
+
+ul {
+    display: flex;
+    align-items: center;
+    gap: 20px;
+    letter-spacing: 2px;
+}
+
+ul.logo {
+    padding-left: 30px;
+}
+
+ul.navegacao {
+    padding-right: 30px;
+}
+
+li h2.nome {
+    font-size: 2.5rem;
+    gap: 10px;
+    color: #be5151;
+}
+
+img.icone {
+    width: 80px;
+}
+
+li a {
+    color: #ffffff;
+    font-weight: normal;
+    font-size: 1.5rem;
+
+}
+
+#conteudo-principal {
+    width: 95%;
+    padding-top: 5%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background-color: #721919; */
+}
+
+div.imagem-principal img {
+    display: inline-block;
+    width: 80%;
+    margin-top: 3%;
+    margin-right: 9%;
+    margin-left: 9%;
+    border-radius: 1%;
+    border: 5px solid rgba(0, 0, 0, 0.459);
+}
+
+.titulo-principal {
+    font-size: 3.5rem;
+    text-align: center;
+    margin-top: 1%;
+    color: #be5151;
+    letter-spacing: 2px;
+}
+
+.descricao-principal {
+    margin-top: 2%;
+    font-size: 2rem;
+    font-weight: bold;
+    text-align: center;
+    color: #be5151;
+    letter-spacing: 2px;
+    line-height: 40px;
+    /* -webkit-text-stroke-width: 1px;
+    -webkit-text-stroke-color: #ffffff;
+    -webkit-text-fill-color: #000000; */
+}
+
+#galeria-fotos{
+    width: 95%;
+    padding-top: 3%;
+    margin-left: auto;
+    margin-right: auto;
+    /* background: #721919; */
+}
+
+.descricao-fotos{
+    font-size: 3rem;
+    color: #be5151;
+    letter-spacing: 2px;
+    text-align: center;
+    margin-top: 10%;
+    margin-bottom: 3%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.fotos{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.comida{
+    height: 300px;
+    width: 30%;
+    border-radius: 50%;
+    margin: 1%;
+    border: 5px solid rgba(0, 0, 0, 0.459);
+}
+
+#rodape{
+    text-align: center;
+    align-items: center;
+    background-color: #ffffff28;
+    padding: 10px;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+footer div{
+    align-items: center;
+}
+
+footer div img{
+    width: 30px;
+}
+    footer p{
+        font-size: 1.5rem;
+        color: #ffffff;
+        line-height: 40px;
+    }
