@@ -23,12 +23,39 @@ ul {
     letter-spacing: 2px;
 }
 
-ul.logo {
+.logo {
     padding-left: 30px;
 }
 
-ul.navegacao {
+.navegacao {
     padding-right: 30px;
+}
+
+.navegacao li a{
+    position: relative;
+
+}
+
+.navegacao li a::after{
+    content: "";
+    width: 0;
+    height: 3px;
+    background-color: currentColor;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    transition: 0.4s ease-in-out;
+    color: currentColor
+
+}
+
+.navegacao li a:hover{
+}
+
+.navegacao li a:hover::after{
+    color: white;
+    width: 100%;
+
 }
 
 li h2.nome {
@@ -115,7 +142,7 @@ div.imagem-principal img {
 .comida{
     height: 300px;
     width: 30%;
-    border-radius: 50%;
+    border-radius: 5%;
     margin: 1%;
     border: 5px solid rgba(0, 0, 0, 0.459);
 }
