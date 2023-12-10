@@ -1,6 +1,6 @@
 body {
-    background-image: url(../img/fundo-cozinha.jpg);
-    background-position: center;
+    background-image: url(../img/fundo-temperos.jpg);
+    background-position: bottom;
     background-size: cover;
 }
 
@@ -58,6 +58,19 @@ ul {
 
 }
 
+.container-descricao{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 500px;
+    width: 100%;
+    background-image: url(../img/fundo-cozinha.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 5%;
+}
+
 li h2.nome {
     font-size: 2.5rem;
     gap: 10px;
@@ -76,11 +89,8 @@ li a {
 }
 
 #conteudo-principal {
-    width: 95%;
+    width: 100%;
     padding-top: 5%;
-    margin-left: auto;
-    margin-right: auto;
-    /* background-color: #721919; */
 }
 
 div.imagem-principal img {
@@ -94,24 +104,26 @@ div.imagem-principal img {
 }
 
 .titulo-principal {
-    font-size: 3.5rem;
+    font-size: 7rem;
     text-align: center;
     margin-top: 1%;
-    color: #be5151;
-    letter-spacing: 2px;
+    color: #3f1313;
+    letter-spacing: 4px;
+    text-shadow: 0 0 20px #ffffff;
 }
 
 .descricao-principal {
     margin-top: 2%;
-    font-size: 2rem;
+    font-size: 3rem;
+    line-height: 10px;
     font-weight: bold;
     text-align: center;
-    color: #be5151;
+    color: #3f1313;
+    letter-spacing: 4px;
+    text-shadow: 0 0 20px #ffffff;
     letter-spacing: 2px;
     line-height: 40px;
-    /* -webkit-text-stroke-width: 1px;
-    -webkit-text-stroke-color: #ffffff;
-    -webkit-text-fill-color: #000000; */
+    padding: 1%;
 }
 
 #galeria-fotos{
