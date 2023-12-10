@@ -49,9 +49,6 @@ ul {
 
 }
 
-.navegacao li a:hover{
-}
-
 .navegacao li a:hover::after{
     color: white;
     width: 100%;
