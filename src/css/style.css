@@ -62,7 +62,7 @@ ul {
     display: flex;
     justify-content: space-around;
     flex-direction: column;
-    height: 500px;
+    height: 700px;
     width: 100%;
     background-image: url(../img/fundo-cozinha.jpg);
     background-attachment: fixed;
