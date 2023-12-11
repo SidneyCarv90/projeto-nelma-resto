@@ -1,7 +1,7 @@
 body {
-    background-image: url(../img/fundo-temperos.jpg);
-    background-position: bottom;
-    background-size: cover;
+    background-image: url(../img/fundo-temperos-02.jpg);
+    background-position: center center;
+    background-size: contain;
 }
 
 nav {
@@ -124,11 +124,10 @@ div.imagem-principal img {
 }
 
 #galeria-fotos{
-    width: 95%;
+    width: 100%;
     padding-top: 3%;
     margin-left: auto;
     margin-right: auto;
-    /* background: #721919; */
 }
 
 .descricao-fotos{
@@ -149,11 +148,14 @@ div.imagem-principal img {
 }
 
 .comida{
-    height: 300px;
-    width: 30%;
-    border-radius: 5%;
-    margin: 1%;
+    height: 30rem;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
     border: 5px solid rgba(0, 0, 0, 0.459);
+    width: 45%;
+    border-radius: 5%;
+    margin: 2%;
 }
 
 #rodape{
