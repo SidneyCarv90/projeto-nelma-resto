@@ -55,18 +55,6 @@ ul {
 
 }
 
-.container-descricao{
-    display: flex;
-    justify-content: space-around;
-    flex-direction: column;
-    height: 700px;
-    width: 100%;
-    background-image: url(../img/fundo-cozinha.jpg);
-    background-attachment: fixed;
-    background-position: center center;
-    background-size: cover;
-    margin-top: 5%;
-}
 
 li h2.nome {
     font-size: 2.5rem;
@@ -82,13 +70,14 @@ li a {
     color: #ffffff;
     font-weight: normal;
     font-size: 1.5rem;
-
+    
 }
 
 #conteudo-principal {
     width: 100%;
     padding-top: 5%;
 }
+
 
 div.imagem-principal img {
     display: inline-block;
@@ -98,6 +87,19 @@ div.imagem-principal img {
     margin-left: 9%;
     border-radius: 1%;
     border: 5px solid rgba(0, 0, 0, 0.459);
+}
+
+.container-descricao{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: column;
+    height: 700px;
+    width: 100%;
+    background-image: url(../img/fundo-cozinha.jpg);
+    background-attachment: fixed;
+    background-position: center center;
+    background-size: cover;
+    margin-top: 5%;
 }
 
 .titulo-principal {
@@ -143,8 +145,9 @@ div.imagem-principal img {
 
 .fotos{
     display: flex;
-    flex-wrap: wrap;
+    flex-flow: row wrap;
     justify-content: center;
+    width: 100%;
 }
 
 .comida{
@@ -156,6 +159,7 @@ div.imagem-principal img {
     width: 45%;
     border-radius: 5%;
     margin: 2%;
+    flex: 0 1 45%;
 }
 
 #rodape{
@@ -175,8 +179,9 @@ footer div{
 footer div img{
     width: 30px;
 }
-    footer p{
-        font-size: 1.5rem;
-        color: #ffffff;
-        line-height: 40px;
-    }
+
+footer p{
+    font-size: 1.5rem;
+    color: #ffffff;
+    line-height: 40px;
+}

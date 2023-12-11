@@ -1,0 +1,74 @@
+@media (max-width: 1000px){
+
+    div.imagem-principal img {
+        display: inline-block;
+        width: 80%;
+        margin-top: 10%;
+        margin-right: 9%;
+        margin-left: 9%;
+        border-radius: 1%;
+        border: 5px solid rgba(0, 0, 0, 0.459);
+    }
+
+    .container-descricao{
+        display: flex;
+        justify-content: space-around;
+        flex-direction: column;
+        height: 400px;
+        width: 100%;
+        background-image: url(../img/fundo-cozinha.jpg);
+        background-attachment: fixed;
+        background-position: center center;
+        background-size: cover;
+        margin-top: 5%;
+    }
+
+    .titulo-principal {
+        font-size: 5rem;
+        text-align: center;
+        margin-top: 1%;
+        color: #3f1313;
+        letter-spacing: 4px;
+        text-shadow: 0 0 20px #ffffff;
+    }
+    
+    .descricao-principal {
+        margin-top: 2%;
+        font-size: 2.5rem;
+        line-height: 10px;
+        font-weight: bold;
+        text-align: center;
+        color: #3f1313;
+        letter-spacing: 4px;
+        text-shadow: 0 0 20px #ffffff;
+        letter-spacing: 2px;
+        line-height: 40px;
+        padding: 1%;
+    }
+
+    #galeria-fotos{
+        width: 100%;
+        padding-top: 3%;
+        margin-left: auto;
+        margin-right: auto;
+    }
+
+    .fotos{
+        display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    width: 100%;
+    }
+
+    .comida{
+    height: 300px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border: 5px solid rgba(0, 0, 0, 0.459);
+    width: 95%;
+    border-radius: 5%;
+    margin: 2%;
+    flex: 1 0 400px;
+    }
+}
